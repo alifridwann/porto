@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.grid{
+    display: grid;
+
+}
+html{
+    scroll-behavior: smooth
+}
+body{
+margin 0 0;
+font-family: 'Poppins',sans-serif;
+font-size: 16px;
+background-color: white;
+color: black;
+overflow-x: hidden;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.custom-shadow{
+    position: fixed;
+    display: flex;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,0.5);
+
+}
+.headerr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .sukarno {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .card-text p-y-1{
+    text-align: left;
+  }
+a>:hover{
+transition: color 0.3s ease-in-out;
+    
+}
+.headerr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid-item {
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+  }
+  .flower {
+    background: teal;
+  }
+  .bird {
+    background: salmon;
+  }
+  .fruit {
+    background: tomato;
+  }
+
+footer{
+    background-color: #323232;
+    color: white;
+width: 100%;
+height: 300px;
+
+
+}
+footer>.wrap{
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+  
+    display: flex;
+  
+    justify-content: center;
+    align-items: centers;
+    font-size: 80px;
+   
+}
+.logo>:hover{
+    transition: ease-in-out 0.4s;
+    color:#fff
+}
+.logo i{
+    
+    margin-right: 20px;
+}
+.copyright{
+    margin-top: 100px;
+   background-color: black;
+   left: 0;
+   bottom: 0;
+   height: 80px;
+  
+}
+.copyright small{
+    color: #cdc9c9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    line-height: 80px;
+    tran
+}
