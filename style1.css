@@ -6,23 +6,25 @@
     margin: 0;
 }
 .grid{
-    display: grid;
 
 }
 html{
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+overflow-x: hidden;
 }
 .kontainer {
     background-image: url('/image/bg.png');
-    background-size: 100%;
-    background-position: center;
-    padding-bottom:120px;
+    background-size: cover;
+    background-position: center top;
+
+    padding-bottom:180px;
     background-repeat: no-repeat;
+ 
 
   }
   .kontainer2 {
    background-color: #000;
-    background-size: 100%;
+    background-size: contain;
     background-position: center;
     padding-top: 20px;
     background-repeat: no-repeat;
@@ -37,6 +39,7 @@ font-size: 16px;
 background-color: #000;
 color: black;
 overflow-x: hidden;
+overflow-y: hidden;
 
 }
 .custom-btn {
@@ -61,8 +64,9 @@ a{
 
 }
 .carousel{
-    
+    width: 100%;
 }
+
 .marquee{
     padding-top: 45px;
   animation: 4s;
@@ -102,7 +106,7 @@ a{
 
 .skill{
     background-image: url(image/bg22.png);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 120px;
@@ -138,7 +142,7 @@ ul{
 }
 .porto{
     background-image: url(image/bg33.png);
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   
